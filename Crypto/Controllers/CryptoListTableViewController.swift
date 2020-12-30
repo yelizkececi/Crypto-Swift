@@ -26,8 +26,6 @@ class CryptoListTableViewController: UITableViewController {
     }
     
     private func setUp(){
-        self.navigationController?.navigationBar.prefersLargeTitles = true
-        
         WebService().getCryptoList(with: URL.urlForCryptoList()){ cryptos in
             
             if let cryptos = cryptos {
@@ -59,6 +57,10 @@ class CryptoListTableViewController: UITableViewController {
         cell.backgroundColor = self.colorArray[indexPath.row % 6]
         return cell
         
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "toDetailsVC", sender: nil )
     }
 
 }

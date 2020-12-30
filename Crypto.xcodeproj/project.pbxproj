@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21222BA8259CCE09008A4C26 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21222BA7259CCE09008A4C26 /* DetailsViewController.swift */; };
 		2169876F259B3D4C00610FD7 /* CryptoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2169876E259B3D4C00610FD7 /* CryptoListViewModel.swift */; };
 		21698775259B440A00610FD7 /* CryptoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21698774259B440900610FD7 /* CryptoListTableViewController.swift */; };
 		216C70A02590FCD7001A80E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216C709F2590FCD7001A80E5 /* AppDelegate.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21222BA7259CCE09008A4C26 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		2169876E259B3D4C00610FD7 /* CryptoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListViewModel.swift; sourceTree = "<group>"; };
 		21698774259B440900610FD7 /* CryptoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListTableViewController.swift; sourceTree = "<group>"; };
 		216C709C2590FCD7001A80E5 /* Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				21698774259B440900610FD7 /* CryptoListTableViewController.swift */,
+				21222BA7259CCE09008A4C26 /* DetailsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				219177DA259A888E003C0D57 /* Constants.swift in Sources */,
 				216C70DF25914A31001A80E5 /* CryptoCurrency.swift in Sources */,
 				216C70A22590FCD7001A80E5 /* SceneDelegate.swift in Sources */,
+				21222BA8259CCE09008A4C26 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

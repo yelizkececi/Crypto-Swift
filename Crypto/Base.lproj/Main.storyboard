@@ -3,6 +3,7 @@
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -63,10 +64,29 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Crypto" id="T9r-De-epE"/>
+                    <connections>
+                        <segue destination="UFh-f6-qM2" kind="show" identifier="toDetailsVC" id="SYb-tN-t7u"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WlC-n7-Hrp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-824.63768115942037" y="36.830357142857139"/>
+        </scene>
+        <!--Crypto-->
+        <scene sceneID="ASD-jQ-pHW">
+            <objects>
+                <viewController id="UFh-f6-qM2" customClass="DetailsViewController" customModule="Crypto" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o49-hk-7A6">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="7LJ-Td-5zE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Crypto" id="8st-v3-lu7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zsj-i7-hSX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-38" y="46"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vv5-Bw-1Zc">
