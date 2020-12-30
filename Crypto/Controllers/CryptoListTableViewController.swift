@@ -16,12 +16,8 @@ class CryptoListTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.colorArray = [
-                UIColor(red: 209/255, green: 203/225, blue: 65/225, alpha: 1.0),
-                UIColor(red: 255/255, green: 0/225, blue: 0/225, alpha: 1.0),
-                UIColor(red: 104/255, green: 100/225, blue: 208/225, alpha: 1.0),
-                UIColor(red: 104/255, green: 127/225, blue: 64/225, alpha: 1.0),
-                UIColor(red: 32/255, green: 45/225, blue: 105/225, alpha: 1.0),
-                UIColor(red: 87/255, green: 21/225, blue: 224/225, alpha: 1.0)]
+            UIColor(red: 236.0/255.0, green: 236.0/255.0, blue: 236.0/255.0, alpha: 1.0),
+            UIColor(red: 255/255, green: 255/225, blue: 255/225, alpha: 1.0)]
         setUp()
     }
     
@@ -54,7 +50,7 @@ class CryptoListTableViewController: UITableViewController {
         
         let cryptoViewModel: CryptoViewModel = CryptoViewModel(cryptoListViewModel.cryptoAtIndex(indexPath.row))
         cell.configure(for: cryptoViewModel)
-        cell.backgroundColor = self.colorArray[indexPath.row % 6]
+        cell.backgroundColor = self.colorArray[indexPath.row % 2]
         return cell
         
     }

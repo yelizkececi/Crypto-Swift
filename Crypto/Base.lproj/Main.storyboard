@@ -17,26 +17,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CryptoTableViewCell" rowHeight="98" id="IK8-59-MgT" customClass="CryptoTableViewCell" customModule="Crypto" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="428" height="98"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CryptoTableViewCell" rowHeight="152" id="IK8-59-MgT" customClass="CryptoTableViewCell" customModule="Crypto" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="428" height="152"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IK8-59-MgT" id="T1F-E7-sGI">
-                                    <rect key="frame" x="0.0" y="0.0" width="428" height="98"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="428" height="152"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lhN-SO-7j7">
-                                            <rect key="frame" x="20" y="10" width="388" height="78"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lhN-SO-7j7">
+                                            <rect key="frame" x="20" y="10" width="388" height="132"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LFe-Ma-dI1">
-                                                    <rect key="frame" x="0.0" y="0.0" width="388" height="57.666666666666664"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="288" height="132"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lLj-rj-WAG">
-                                                    <rect key="frame" x="0.0" y="57.666666666666679" width="388" height="20.333333333333336"/>
+                                                    <rect key="frame" x="288" y="0.0" width="100" height="132"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="20.5" id="8c8-83-RTI"/>
+                                                        <constraint firstAttribute="width" constant="100" id="zle-7F-R7l"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -70,7 +70,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WlC-n7-Hrp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-824.63768115942037" y="36.830357142857139"/>
+            <point key="canvasLocation" x="-825.70093457943915" y="36.285097192224626"/>
         </scene>
         <!--Crypto-->
         <scene sceneID="ASD-jQ-pHW">
